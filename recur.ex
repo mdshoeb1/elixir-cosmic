@@ -6,4 +6,7 @@ defmodule Advanced do
     IO.puts msg
     print_mul_times(msg,n-1)
   end
+  def print do
+    IO.puts "This is just a print msg function"
+  end
 end
